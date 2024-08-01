@@ -13,10 +13,10 @@ class SswSquare extends HTMLElement{
         const style = document.createElement("style");
         style.innerHTML = `
             .square{
-                height: 20px;
-                width: 20px;
-                border: solid red 1px;
-                background-color: ${backgroundColor}
+                height: 50px;
+                width: 50px;
+                border: solid black 2px;
+                background-color: ${backgroundColor};
             }`;
         console.log("style", style);
         shadow.appendChild(style.cloneNode(true));      
